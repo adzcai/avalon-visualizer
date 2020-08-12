@@ -1,5 +1,12 @@
-import data from '../../lib/data-full.json';
+import data1 from '../../lib/data-1.json';
+import data2 from '../../lib/data-2.json';
+import data3 from '../../lib/data-3.json';
+import data4 from '../../lib/data-4.json';
 import { allGameSizeFilters } from '../../lib/util';
+
+const data = [...data1, ...data2, ...data3, ...data4];
+
+console.log(`All ${data.length} games successfully loaded`);
 
 export default (req, res) => {
   const {
