@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function NameList({
-  id, title, names, color, fluid,
+  title, names, color, fluid,
 }) {
   return (
     <div className={fluid ? 'w-full' : 'w-1/2'}>
@@ -10,7 +10,7 @@ export default function NameList({
         {names.length > 0
           ? names.map((name, i) => (
             <li
-              key={`${id}-${name}`}
+              key={name}
               className={`px-4 py-2 text-gray-200 ${i % 2 === 0 ? `bg-${color}-600` : `bg-${color}-800`} ${i === names.length - 1 && 'rounded-b'}`}
             >
               {name}

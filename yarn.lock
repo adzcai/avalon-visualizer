@@ -1276,6 +1276,11 @@ acorn@^7.0.0, acorn@^7.3.1:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.4.0.tgz#e1ad486e6c54501634c6c397c5c121daa383607c"
   integrity sha512-+G7P8jJmCHr+S+cLfQxygbWhXy+8YTVGzAkpEbcLo2mLoL7tij/VG41QSHACSf5QgYRhMZYHuNc6drJaO0Da+w==
 
+adj-noun@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/adj-noun/-/adj-noun-0.1.1.tgz#1d7547dc8c3550ccedbfc68e6c31e7d0331bfe01"
+  integrity sha1-HXVH3Iw1UMztv8aObDHn0DMb/gE=
+
 adjust-sourcemap-loader@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/adjust-sourcemap-loader/-/adjust-sourcemap-loader-2.0.0.tgz#6471143af75ec02334b219f54bc7970c52fb29a4"
