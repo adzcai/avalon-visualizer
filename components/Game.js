@@ -11,7 +11,7 @@ export default function Game({ data, i, numItems }) {
           {' '}
           {data.howTheGameWasWon}
         </h1>
-        <p className="text-xl px-4 py-2 rounded bg-gray-400 ml-4 text-center">
+        <p className="text-xl px-4 py-2 rounded bg-gray-400 ml-4 text-center shadow">
           <span className="font-black">{data.numberOfPlayers}</span>
           {' '}
           Players

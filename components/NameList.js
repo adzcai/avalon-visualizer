@@ -4,7 +4,7 @@ export default function NameList({
   id, title, names, color, fluid,
 }) {
   return (
-    <div className={fluid ? 'w-full' : 'w-1/2'}>
+    <div className={`${fluid ? 'w-full' : 'w-1/2'} shadow`}>
       <h1 className={`px-4 py-2 bg-${color}-200 rounded-t font-bold text-xl`}>{title}</h1>
       <ul>
         {names.length > 0
