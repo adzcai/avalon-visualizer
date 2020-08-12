@@ -1,4 +1,4 @@
-import data from '../../lib/data-full.json';
+import data from '../../lib/data.json';
 import { allGameSizeFilters } from '../../lib/util';
 
 export default (req, res) => {
