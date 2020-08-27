@@ -8,7 +8,9 @@ export default function Game({ data, numItems, randomNames }) {
   // eslint-disable-next-line no-underscore-dangle
   // an.seed(parseInt(data._id, 16));
 
-  const names = data.playerUsernamesOrdered.reduce((prev, name) => ({
+  const names = (data.playerUsernamesOrdered.length === 0
+    ? (data.spyTeam.concat(data.resistanceTeam))
+    : data.playerUsernamesOrdered).reduce((prev, name) => ({
     ...prev, [name]: randomNames ? an().map((s) => capitalize(s)).join('') : name,
   }), {});
 
